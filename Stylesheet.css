@@ -1,0 +1,145 @@
+
+*{
+    font-family: 'Arial', 'normal';
+    font-size: 17px;
+}
+
+body{
+   
+   background-color: rgba(1,1,1,1.0);
+  
+}
+
+div{
+    -webkit-column-count: 5; 
+    -moz-column-count: 5; 
+    column-count: 5;
+    -webkit-column-gap: 4px; 
+    -moz-column-gap: 4px; 
+    column-gap: 4px;
+  -webkit-column-rule: 2px solid ; /* Chrome, Safari, Opera */
+    -moz-column-rule: 2px solid ; /* Firefox */
+    column-rule: 2px solid;
+    -webkit-column-width: 100px; /* Chrome, Safari, Opera */
+    -moz-column-width: 100px; /* Firefox */
+    column-width: 100px;
+    
+}
+
+.main h1{
+    font-family: 'Supermercado One' , cursive;
+    font-size: 100px;
+    color:rgba(255,255,255,1.0);
+    font-weight: 900;
+ padding: 250px 10px 250px 10px;
+ text-align: center;
+ }
+
+
+
+
+
+
+
+
+#main1{
+    margin: 0 auto;
+    position: relative;
+    top:25%;
+    width:50%;
+    display: flex;
+    transition: width, 3s, ease-in-out, 2s;
+      background-image: url('https://s-media-cache-ak0.pinimg.com/originals/c0/d3/8c/c0d38c518fdbf6012e0475bb7a0598a5.gif');
+      background-repeat: no-repeat;
+   background-position: 400px 200px;
+   
+
+   
+}
+
+#main1:hover{
+    background-color: darkblue;
+    width:100%;
+    align-items: center;
+
+    transition: width, 3s, ease-in-out, 2s;
+    background-image: url('https://s-media-cache-ak0.pinimg.com/originals/c0/d3/8c/c0d38c518fdbf6012e0475bb7a0598a5.gif');
+    background-repeat: no-repeat;
+    background-position: 0px 200px;
+
+}
+
+
+
+#main2{
+    margin: 0 auto;
+    position: relative;
+    top:25%;
+    width:50%;
+    display: flex;
+    transition: width, 3s, ease-in-out, 2s;
+
+}
+
+#main2:hover{
+    background-color: dodgerblue;
+    width:100%;
+    align-items: center;
+    transition: width, 3s, ease-in-out, 2s;
+
+}
+
+#main3{
+    margin: 0 auto;
+    position: relative;
+    top:25%;
+    width:50%;
+    display: flex;
+    transition: width, 3s, ease-in-out, 2s;
+
+}
+
+#main3:hover{
+    background-color: deepskyblue;
+    width:100%;
+    align-items: center;
+    transition: width, 3s, ease-in-out, 2s;
+
+}
+
+#main4{
+    margin: 0 auto;
+    position: relative;
+    top:25%;
+    width:50%;
+    display: flex;
+    transition: width, 3s, ease-in-out, 2s;
+
+}
+
+#main4:hover{
+    background-color: lightskyblue;
+    width:100%;
+    align-items: center;
+    transition: width, 3s, ease-in-out, 2s;
+
+}
+
+#main5{
+    margin: 0 auto;
+    position: relative;
+    top:25%;
+    width:50%;
+    display: flex;
+    transition: width, 3s, ease-in-out, 2s;
+
+}
+
+#main5:hover{
+    background-color: lightsteelblue;
+    width:100%;
+    align-items: center;
+    transition: width, 3s, ease-in-out, 2s;
+
+}
+
